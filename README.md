@@ -11,6 +11,8 @@ Add `"kbrabrand/silex-neo4j": "XXX"` to the composer.json file inside your proje
 Register the Neo4j service provider in your Silex app like this;
 
 ```php
+use KBrabrand\Silex\Provider\Neo4jServiceProvider;
+
 $app->register(new Neo4jServiceProvider(), array(
     'neo4j.transport' => 'localhost', // Hostname as string, or Everyman\Neo4j\Transport object
     'neo4j.port'      => 7474,        // Port number, ignored if transport is not a string
