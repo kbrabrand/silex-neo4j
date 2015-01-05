@@ -13,5 +13,3 @@ if ((!$loader = includeIfExists(__DIR__.'/../vendor/autoload.php'))
         'curl -s http://getcomposer.org/installer | php'.PHP_EOL.
         'php composer.phar install'.PHP_EOL);
 }
-
-$loader->add('Tobiassjosten\Silex\Provider\Test', __DIR__);
