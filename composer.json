@@ -2,7 +2,7 @@
     "name": "kbrabrand/silex-neo4j",
     "description": "Neo4j service provider for Silex",
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.5.9",
         "silex/silex": "~2.0",
         "everyman/neo4jphp": "dev-master"
     },
@@ -19,8 +19,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "KBrabrand\\Silex\\Provider\\": "lib",
-            "KBrabrandTest\\Silex\\Provider\\": "tests"
+            "KBrabrand\\": "lib/KBraband/",
+            "KBrabrandTest\\": "tests/KBrabandTest"
         }
     }
 }
