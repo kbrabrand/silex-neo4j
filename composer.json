@@ -19,8 +19,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "KBrabrand\\": "lib/KBraband/",
-            "KBrabrandTest\\": "tests/KBrabandTest"
+            "KBrabrand\\": "lib/KBrabrand/",
+            "KBrabrandTest\\": "tests/KBrabrandTest/"
         }
     }
 }
